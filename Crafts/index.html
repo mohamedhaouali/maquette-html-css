@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Cadeaux&Déco</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script>
+		$(window).on('load', function() {
+			$('.flexslider').flexslider({
+				directionNav: true,
+				controlNav: true
+			});
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<a href="#">Accueil</a>
+			<a href="#cadeaux">Cadeaux </a>
+			<a href="#deco">Décoration</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
+	<main class="container">
+		<h1>cadeaux & Déco !</h1>
+		<section class="slider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<img src="img/slider1.jpg" alt="sliderCraft" />
+					</li>
+					<li>
+						<img src="img/slider2.jpg" alt="sliderCraft" />
+					</li>
+					<li>
+						<img src="img/slider3.jpg" alt="sliderCraft" />
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="cadeaux" class="produit">
+			<h2>Cadeaux</h2>
+			<article>
+				<img src="img/craft2.jpg" alt="craft2" />
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+				<a href="#">commander</a>
+			</article><!--
+		 --><article>
+				<img src="img/craft3.jpg" alt="craft3" />
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+				<a href="#">commander</a>
+			</article><!--
+		 --><article>
+				<img src="img/craft4.jpg" alt="craft4" />
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+				<a href="#">commander</a>
+			</article>
+		</section>
+		<section id="deco" class="produit">
+			<h2>Décoration Maison</h2>
+			<article>
+				<img src="img/deco_home.jpg" alt="craft2" />
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+				<a href="#">commander</a>
+			</article><!--
+		 --><article>
+				<img src="img/deco_home2.jpg" alt="craft3" />
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+				<a href="#">commander</a>
+			</article><!--
+		 --><article>
+				<img src="img/deco_home3.jpg" alt="craft4" />
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
+				<a href="#">commander</a>
+			</article>
+		</section>
+		<section class="media">
+			<h2>Idées Créatives </h2>
+			<article class="video">
+				<video controls src="video/video.mp4">
+					Votre navigateur ne peut pas lire cette vidéo
+				</video>
+			    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+				<p>Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker</p>
+		</section>
+
+
+
+
+	</main>
+	<footer>
+		<p ><img src="img/logo.png"></p>
+        <p><a href="http://www.idaformation.com">IDAF Formation </a></p>
+	</footer>
+</body>
+</html>

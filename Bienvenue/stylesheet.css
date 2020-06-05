@@ -1,0 +1,27 @@
+
+#logo{
+    height: 200px;
+    padding: 50px;
+}
+#titres h2 {
+    color: red;
+}
+
+#titres h3 {
+    color: blue;
+}
+
+#titres h4 {
+    color: green;
+}
+#titres h5 {
+    color: #A52A2A;
+}
+
+#listes .couleur {
+    background-color:   #E9967A;
+}
+.langage{
+    width: 75px;
+}
+

@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  color: #fff;
+  line-height: 1.8;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1em;
+  background-color: #d6a766;
+}
+.container {
+  max-width: 1100px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Slabo 27px";
+  margin: 0;
+}
+.btn_more {
+  font-family: "Slabo 27px";
+  font-size: 1.1em;
+  color: white;
+  background-color: #750903;
+  padding: 5px 15px;
+  float: right;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.btn_more i {
+  margin-left: 10px;
+}
+
+header {
+  background-color: #ac7445;
+  border-top: 5px solid #41270e;
+  border-bottom: 5px solid #41270e;
+  margin-top: 100px;
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+  font-family: "Slabo 27px";
+  font-size: 1.4em;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+
+section h1 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 3.5em;
+  text-shadow: 2px 2px #870504;
+  color: #fff;
+  font-weight: bold;
+}
+
+#presentation {
+  width: 750px;
+  height: 400px;
+  margin: 50px auto 0;
+  text-align: center;
+  background: url("../img/bg_coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#coffee {
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #9c673b;
+  padding: 2.5%;
+  margin: 50px 2% 0 0;
+  border: 3px solid #3e1d0d;
+}
+
+#coffee h3 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #3e1d0d;
+  font-size: bold;
+}
+
+#coffee article {
+  vertical-align: top;
+  padding: 2.5%;
+}
+
+#coffee img {
+  float: left;
+  margin-right: 15px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+aside {
+  width: 20%;
+  display: inline-block;
+  padding: 2.5%;
+  margin-top: 50px;
+  background-color: #ac7445;
+  color: white;
+  border: 3px solid #3e1d0d;
+}
+
+aside h2 {
+  font-size: 1.4em;
+  color: #3e1d0d;
+  font-weight: bold;
+}
+aside a {
+  color: #3e1d0d;
+}
+
+aside p {
+  font-size: 0.9em;
+  margin: 0 0 15px;
+}
+aside i {
+  color: #3e1d0d;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 15%;
+  padding: 30px;
+  line-height: 20px;
+}
+footer p {
+  text-align: center;
+  font-size: 0.75em;
+}
+footer p img {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}

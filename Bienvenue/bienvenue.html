@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bienvenue!!</title>
+		<link rel="stylesheet" href="stylesheet.css" />
+	</head>
+	<body>
+		<!-- l'element header est l'entête du site -->
+		<header>
+			<!-- Le titre de la page -->
+			<h1> Bienvenue à IDAF formation !</h1>
+			<img id="logo" src="img/logo.png" alt="logo IDAF " />
+			<nav>
+				<!-- barre de navigation -->
+				<a href="#titres">Titres</a>
+				<a href="#paragraphes">Paragraphes</a>
+				<a href="#listes">Listes</a>
+		    </nav>
+			
+		</header>
+		<!-- l'element main contient le corps du site-->
+		<main>
+		<!-- titres et sous titres -->
+		<div id="titres">
+			<h2>Titre important</h2>
+			<h3>Titre un peu moins important</h3>
+			<h4>Titre pas trop important</h4>
+			<h5>Titre pas important</h5>
+			<h6>Titre vraiment pas important du tout</h6>
+		</div>	
+		<hr />
+		<div id="paragraphes">
+			<p>ceci est un paragraphe</p>
+			<pre>Un texte dans un élément pre
+			 est affiché dans une largeur fixe
+             et il préserve
+             les espaces    ainsi que 
+             les sauts de ligne</pre>			
+		</div>
+		<hr/>
+		<div id="listes">
+			<!--Liste non ordonnée-->
+
+			<p class="couleur">ceci est une liste non ordonnée</p>
+			<ul>
+				<li>HTML</li>
+			    <li>CSS</li>
+			    <li>Javascript</li>
+			</ul>
+			<!--Liste ordonnée -->
+			<p class="couleur">ceci est une liste ordonnée</p>
+			<ol>
+				<li>HTML</li>
+			    <li>CSS</li>
+			    <li>Javascript</li>
+			</ol>
+			<!--Liste de définition-->
+			<p class="couleur">ceci est une liste de définition</p>
+			<dl>
+				<dt><b>HTML</b></dt>
+				<dd>
+					<p>Le HyperText Markup Language est un langage de balisage de description du contenu de pages web</p>
+					<img class="langage" src="img/html.png" alt="html" />
+					</dd>
+				<dt><b>CSS</b></dt>
+				<dd>
+					<p>Le Cascading Style Sheets est un langage utilisé pour définir l'apparence et la forme d'un contenu en HTML.</p>
+					<img  class="langage"src="img/css.jpg" alt=" CSS" />
+				</dd>
+				<dt><b>Javascript</b></dt>
+				<dd>
+					<p>JavaScript est un langage de programmation de scripts utilisé dans les pages web interactives mais aussi côté serveur.</p>
+					<img class="langage" src="img/js.png" alt="js" />
+				</dd>
+			</dl>
+	    </div>
+		</main>
+		
+	</body>
+</html>

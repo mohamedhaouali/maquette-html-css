@@ -1,0 +1,76 @@
+/*importer un font_family */
+@font-face {
+  font-family: "Margarine-Regular";
+  src: url(../fonts/Margarine/Margarine-Regular) format(ttf);
+}
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald/Oswald-Bold) format(ttf);
+}
+@font-face {
+  font-family: "Oswald-regular";
+  src: url(../fonts/Oswald/Oswald-regular) format(ttf);
+}
+body {
+  width: 50%;
+  max-width: 800px;
+  font-size: 1.4em;
+  line-height: 50px;
+  text-indent: 25px;
+  margin: auto;
+  font-family: Oswald-regular;
+  background-image: url("img/bg.jpg");
+}
+
+h1 {
+  font-family: Margarine-Regular;
+  font-size: 2em;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 50px;
+  font-style: bold;
+  text-shadow: 2px 2px #000;
+}
+h2 {
+  font-family: Margarine-Regular;
+  font-size: 1.5em;
+  word-spacing: 15px;
+  font-weight: normal;
+}
+
+p {
+  font-family: Oswald-regular;
+  text-align: justify;
+  font-size: 1em;
+  font-style: italic;
+  color: #666;
+}
+q {
+  display: block;
+  font-size: 1em;
+  font-style: italic;
+  color: #666;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  margin-bottom: 3em;
+}
+
+#footer {
+  margin-top: 100px;
+  padding: 30px;
+  line-height: 20px;
+}
+#footer p {
+  text-align: center;
+  font-size: 0.5em;
+}
+#footer p img {
+  text-align: center;
+  width: 100px;
+}

@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Bodega Sans";
+  src: url("../fonts/BodegaSans_Black.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+  color: white;
+  background: #d0e4f7;
+  background: -moz-linear-gradient(
+    -45deg,
+    #d0e4f7 0%,
+    #51282d 24%,
+    #e0ae0b 49%,
+    #4ccecc 79%,
+    #87bcea 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #d0e4f7 0%,
+    #51282d 24%,
+    #e0ae0b 49%,
+    #4ccecc 79%,
+    #87bcea 100%
+  );
+  background: linear-gradient(
+    135deg,
+    #d0e4f7 0%,
+    #51282d 24%,
+    #e0ae0b 49%,
+    #4ccecc 79%,
+    #87bcea 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=1 );
+}
+
+h1,
+h2 {
+  font-family: "Bodega Sans", arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1500px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+ul {
+  margin-left: -40px;
+}
+
+/* NAVIGATION */
+
+nav {
+  padding: 25px;
+  line-height: 1.5;
+  text-align: right;
+  font-family: "Bodega Sans", arial, sans-serif;
+}
+
+nav a {
+  display: block;
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ff9d00;
+}
+
+/* SLIDER */
+.slider {
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+  margin: 60px auto 0;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.flexslider {
+  margin: 0;
+  border: 0;
+}
+
+/* ARTICLE */
+main h2 {
+  border-top: 3px solid rgba(0, 0, 0, 0.075);
+  border-left: 3px solid rgba(0, 0, 0, 0.075);
+  padding: 10px 30px;
+  font-size: 3rem;
+  margin: 50px 0 25px;
+  letter-spacing: 1px;
+}
+
+.produit article {
+  /*background-color: white;*/
+  background: #b4c1c0;
+  background: -moz-linear-gradient(-45deg, #b4c1c0 0%, #efe07c 100%);
+  background: -webkit-linear-gradient(-45deg, #b4c1c0 0%, #efe07c 100%);
+  background: linear-gradient(135deg, #b4c1c0 0%, #efe07c 100%);
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  padding: 0 20px 20px;
+  color: #666;
+}
+
+.produit article + article {
+  margin-left: 2%;
+}
+.produit img {
+  width: 80%;
+  margin: auto;
+  display: block;
+  height: 300px;
+  padding: 20px;
+}
+
+.produit a {
+  display: block;
+  width: 60%;
+  background-color: #ff9d00;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20%;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.media article {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.video {
+  padding: 20px 0px;
+}
+
+.video video {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: 15%;
+  padding: 30px;
+  line-height: 20px;
+}
+footer p {
+  text-align: center;
+  font-size: 0.75em;
+}
+footer p img {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+footer a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer a:hover {
+  color: #ff9d00;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 25px;
+  }
+
+  .produit article {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+
+  .produit article + article {
+    margin: 25px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    padding: 10px;
+    max-width: 100%;
+  }
+  nav {
+    text-align: center;
+  }
+  nav a {
+    padding: 25px;
+  }
+}
