@@ -1,0 +1,120 @@
+/* HEADER */
+header {
+	text-align: center;
+
+	background-size: cover;
+	background-position: center;
+	color: red;
+
+}
+
+.bg-company-red {
+  
+    color:red;
+}
+
+.bg-company-red li {
+  
+    color:red;
+}
+
+
+
+
+.clear {
+    clear: both;
+  }
+
+  .produit0  {
+   
+    padding-bottom: 20px;
+
+  
+     color: #fff;
+
+     padding-top: 20px;
+   
+
+}
+
+#carousel{
+    bottom:160px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    bottom:160px;
+   
+    }
+
+.produit1 article{
+  
+    background-color: #BD6551; 
+ 
+}
+
+#equipe{
+
+    background-color: #BD6551;
+    color: white;
+    border-radius: 15px;
+    height:500px;
+
+}
+
+
+
+
+
+
+#ice{
+    background-color: white;
+    color:#BD6551;
+    border-radius: 15px;
+    height:500px;
+
+}
+
+#ice1{
+
+    color:#BD6551;
+   
+
+}
+
+.fas fa-users{
+    background:#BD6551;
+}
+
+
+
+.produit1 h5,p{
+    color: #fff;
+}
+
+.produit1 i{
+    color: #fff;
+    font-size:55px;
+    text-align: center;
+    display:inline;
+    background-position:center;
+    padding:110px;
+}
+
+.produit1 equipe{
+
+    background-color: #BD6551; 
+    border-radius:15px;
+    background-size: 20px;
+
+}
+
+footer {
+    margin-top: 15%;
+    padding: 15px;
+    line-height: 20px;
+    background-color:#BD6551;
+  }
+
+h4{
+    text-align: center;
+}    
+  
